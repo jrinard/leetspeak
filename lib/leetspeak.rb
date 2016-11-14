@@ -6,13 +6,13 @@ class String
     if word == "e"
     word_list.push(3)
 
-  elsif word.eql?("o")
+  elsif word=="o"
       word_list.push(0)# o to 0
 
-    elsif word.eql?("I")
+    elsif word=="I"
       word_list.push(1) #I to 1
 
-    elsif word.eql?("s")
+    elsif word=="s"
       word_list.push("z") #s to z
 
     else word_list.push(word)
