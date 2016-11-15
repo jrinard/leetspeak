@@ -19,6 +19,10 @@ describe('String#leetspeak') do
     expect('Igloo'.leetspeak).to(eq('1gl00'))
   end
 
+  it('if s is the first letter in the word dont do anything') do
+    expect("snake".leetspeak).to(eq("snak3"))
+  end
+
   it('replace s with z') do
     expect('test'.leetspeak).to(eq('t3zt'))
   end
